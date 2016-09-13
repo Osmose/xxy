@@ -15,5 +15,11 @@ module.exports = {
         loader: 'babel',
       },
     ],
+    postLoaders: [
+      {
+        include: path.resolve(__dirname, 'node_modules/pixi.js'),
+        loader: 'ify',
+      },
+    ],
   },
 };
