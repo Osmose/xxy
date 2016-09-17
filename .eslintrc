@@ -18,3 +18,5 @@ rules:
   no-throw-literal: [off]
   jsx-a11y/no-static-element-interactions: [off]
   react/prop-types: [off]
+  no-plusplus: [off]
+  class-methods-use-this: [off]
