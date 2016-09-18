@@ -20,3 +20,6 @@ rules:
   react/prop-types: [off]
   no-plusplus: [off]
   class-methods-use-this: [off]
+  import/prefer-default-export: [off]
+  no-mixed-operators: [off]
+  no-bitwise: [off]
